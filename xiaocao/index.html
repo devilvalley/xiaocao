@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>orange</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        @import "css/style.css";
+    </style>
+</head>
+<body>
+<div id="bg" class="container-fluid clearfix">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <div class="row">
+            <div class="col-sm-6"><img src="img/og_Ms_logo.png" style="width:80%"></div>
+            <div class="col-sm-6">
+                <form class="row" role="search">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <button type="submit" class="btn btn-default">提交</button>
+                </form>
+            </div>
+            </div>
+
+            <div class="row" id="navtop">
+                <nav class="navbar navbar-expand-sm navbar-dark">
+                <ul class="navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Get a Quoto</a>
+                    </li>
+                </ul></nav>
+            </div><!--导航-->
+
+            <div id="demo" class="carousel slide" data-ride="carousel"><!-- 轮播 -->
+                <!-- 指示符
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul> -->
+                <!-- 轮播图片 -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/ogMs_banner.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/ogMs_banner.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/ogMs_banner.jpg">
+                    </div>
+                </div>
+                <!-- 左右切换按钮 -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div><!--轮播-->
+            <div class="row" id="word">
+                <div class="col-sm-4">
+                    <div>
+                    <h4>Welcome to the Orange Monster</h4>
+                    <h4><small>Cras et est ac orci convallis lacinia ut vita</small></h4>
+                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra,per inceptos himenaeos.Phasellus fe
+                        ugiat,lacus sed adipiscing venenatis,<span class="text-primary" >est odio pharetra mi,</span>
+                    eu molestie orci urna id lacus.Pellentesque solicitudin pulvinar est quis aliquam.</p>
+                    <p>Cras ac tellus justo,et tincidunt nibh.Pellentesque habitant morbi tristique senectus et malesuada
+                        fames ac turpis egestas.<span class="text-primary" >Morbi porta vulputate </span>lorem,quis dignissim eros feugiat sit
+                    amet!Donec suscipit portitor leo vel iac ulis.</p>
+                    <p>Class aptent tacili sociosqu litora torquent per conubia nostra,per inceptos himenaeos.
+                    Phasellus feugiat,lacus sed adipiscing vennenatis,est odio pharetra mi,eu molestie orciurna
+                    id lacus.Pellentesque solicitudin pulvinar est quis aliquam</p>
+                    <button type="button" class="btn btn-primary">Click Me</button>
+                    </div>
+                </div><!--左边文字-->
+                <div class="col-sm-4">
+                    <div>
+                    <img src="img/ogMs_feat1.png" alt="">
+                    <img src="img/ogMs_feat2.png" alt="">
+                    </div>
+                </div><!--中间图片-->
+                <div class="col-sm-4">
+                    <div>
+                    <h4 class="text-warning">Pellentesque habitant morbi</h4>
+                    <p>tristique senectus et netus et malesuada fames ac turpis egestas.Duis arcu enim,ultrices nec mollis.
+                        commodo,<span class="text-primary" >lobortis quis neque.</span>Duis consequat diam eu ipsum volupat
+                    pulvinar.Quisque venenatis laoreet ligula vel ultrices.</p>
+                    <p>Aliquam quis eros elit,eget facilisis elit.Quisque sodales,nunc sed sodales blandit,metus justo gravida
+                        eros,at facilisis <span class="text-primary" >lorem mi ac augue.</span>Nullam sed turpis orci,at
+                    dapibus metus.Suspendisse sed venenatis ipsum.Aliquam erat volutpat.</p>
+                    <h4 class="text-warning">onec ornare volutpat molestie</h4>
+                    <p>Etiam tortor urna,ultricies id ultrices id;faucibus sit ameturna.Mauris accumsan,risus sit amet rhoncus euismod,
+                        velit enim <span class="text-primary" >ullamcorper odio</span>,feugiat semper erat sapien sit amet justo.
+                        Fusce suismod dictum pretium.Sed venenatis felis eu ante feugiat pretium?</p>
+                    <p>Aliquam quis eros elit,eget facilisis elit.Quisque sodales,nunc sed sodales blandit,metus justo gravida eros,
+                    at facilisis lorem mi ac augue.</p>
+                    </div>
+                </div><!--右边文字-->
+            </div>
+
+        <div class="col-sm-2"></div>
+    </div>
+        <div class="col-sm-2"></div>
+
+    </div>
+    </div>
+<footer>
+    <div id="ft" class="container-fluid clearfix" >
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="col-sm-2">
+                    <h4>About Us</h4>
+                    <p>dui vel eros vestibulun Mauris lectus erat,iaculis</p>
+                </div>
+                <div class="col-sm-2">
+                    <h4>Portfolio</h4>
+                    <p>dui vel eros vestibulum Mauris lectus erat,iaculis Mauris lectus erat,iaculis</p>
+                </div>
+                <div class="col-sm-2">
+                    <h4>Solutions</h4>
+                    <p>dui vel eros vestibulum Mauris lectus erat,iaculis Mauris lectus erat,iaculis</p>
+                </div>
+                <div class="col-sm-2">
+                    <h4>Case Studies</h4>
+                    <p>dui vel eros vestibulun Mauris lectus erat,iaculis</p>
+                </div>
+                <div class="col-sm-4">3</div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</footer><!--底部-->
+</body>
+</html>
